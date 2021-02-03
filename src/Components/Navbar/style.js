@@ -44,7 +44,7 @@ export const Anchor = Styled.a `
     padding: 10px 15px;
     font-weight: bold;
     &:hover{
-        color: #eb5424
+        color: #eb5424;
     }
 `;
 /* Media for Navbar Style */ 
