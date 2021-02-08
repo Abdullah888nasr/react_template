@@ -20,7 +20,6 @@ const SocialMedia = () => {
     return(
         <SocialMediaDiv>
             {socialList}
-            
         </SocialMediaDiv>
     )
 }

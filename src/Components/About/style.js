@@ -1,7 +1,7 @@
 import Styled from 'styled-components';
 export const AboutDiv = Styled.div `
     height: 600px;
-    background: url('../images/creative/about-bg.jpg');
+    background: url('images/creative/about-bg.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
