@@ -1,7 +1,6 @@
 import Styled from 'styled-components';
 export const PortfolioDiv = Styled.div `
     background: #f8f8f8;
-    padding-top: 20px; 
     overflow: hidden;
 `;
 
@@ -26,6 +25,11 @@ export const PortfolioItem = Styled.li `
     padding: 10px;
     background-color: ${props => props.active === 1 ? '#eb5424':''};
     color: ${props => props.active === 1 ? '#fff':'#000'};
+    &:hover{
+        background-color:#eb5424;
+        color: #fff;
+        cursor:pointer;
+    };
     @media (max-width:575px) {
         display: block;
         margin: auto

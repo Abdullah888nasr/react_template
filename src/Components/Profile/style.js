@@ -1,6 +1,5 @@
 import Styled from 'styled-components';
 export const ProfileSkills = Styled.div `
-    padding: 50px 0;
     overflow: hidden;
     @media (max-width:768px) {
         margin-bottom: 20px;

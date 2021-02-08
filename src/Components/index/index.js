@@ -12,11 +12,11 @@ class Index extends Component {
     return (
       <div className="App">
         <Home />
-        <Work />
-        <Portfolio />
-        <Profile />
-        <About />
-        <SocialMedia />
+        <Work/>
+        <Portfolio/>
+        <Profile/>
+        <About/>
+        <SocialMedia/>
         <Footer />
       </div>
     );

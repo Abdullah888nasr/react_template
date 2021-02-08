@@ -20,16 +20,18 @@ const Portfolio = () => {
     });
     return(
         <PortfolioDiv>
-            <PortfolioTitle><Span>My</Span> Portfolio</PortfolioTitle>
-            <PortfolioList>
-                <PortfolioItem active={1}>All</PortfolioItem>
-                <PortfolioItem>HTML</PortfolioItem>
-                <PortfolioItem>Photoshop</PortfolioItem>
-                <PortfolioItem>Wordpress</PortfolioItem>
-                <PortfolioItem>Mobile</PortfolioItem>
-            </PortfolioList>
-            <div>
-                {portfoliList}
+            <div id="Portfolio">
+                <PortfolioTitle><Span>My</Span> Portfolio</PortfolioTitle>
+                <PortfolioList>
+                    <PortfolioItem active={1}>All</PortfolioItem>
+                    <PortfolioItem>HTML</PortfolioItem>
+                    <PortfolioItem>Photoshop</PortfolioItem>
+                    <PortfolioItem>Wordpress</PortfolioItem>
+                    <PortfolioItem>Mobile</PortfolioItem>
+                </PortfolioList>
+                <div>
+                    {portfoliList}
+                </div>
             </div>
         </PortfolioDiv>
     )

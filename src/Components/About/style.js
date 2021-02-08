@@ -11,7 +11,6 @@ export const AboutDiv = Styled.div `
 `;
 
 export const AboutInfo = Styled.div `
-    padding-top: 50px;
     width: 50%;
     float: right;
     @media (max-width:991px) {

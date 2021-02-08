@@ -1,10 +1,11 @@
 import Styled from 'styled-components';
 export const NavbarDiv = Styled.div `
-    padding: 10px 0;
     overflow: hidden;
     background: #fff;
-    position: relative;
     border-bottom: 1px solid #000;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
 `;
 export const Logo = Styled.div `
     width: 50%;
@@ -16,8 +17,9 @@ export const Logo = Styled.div `
 `;
 export const LogoText = Styled.h2 `
     font-size: 30px;
+    margin: 5;
     font-weight: bold;
-    margin:10px 0;
+    margin:5px 0;
 `;
 export const UlList = Styled.ul `
     width: 45%;

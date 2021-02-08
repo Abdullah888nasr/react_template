@@ -23,7 +23,7 @@ class Work extends Component {
         });
         return(
             <WorkDiv>
-                <div className="container">
+                <div className="container" id="Work">
                     <WorkTitle><Span>My</Span> Work</WorkTitle>
                     {worklist}
                 </div>

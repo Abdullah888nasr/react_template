@@ -5,15 +5,15 @@ const Navbar = () => {
     return(
         <NavbarDiv> 
             <div className="container">
-                <Logo>
-                    <LogoText>Ultra Profile</LogoText>
+                <Logo className="logo">
+                    <LogoText><Link className="anchor" to="/" data-value="Home">Ultra Profile</Link></LogoText>
                 </Logo>
                 <UlList>
-                    <ListItem><Link className="anchor" to="/">Home</Link></ListItem>
-                    <ListItem><Anchor href="#">Work</Anchor></ListItem>
-                    <ListItem><Anchor href="#">Portfolio</Anchor></ListItem>
-                    <ListItem><Anchor href="#">Resume</Anchor></ListItem>
-                    <ListItem><Anchor href="#">About</Anchor></ListItem>
+                    <ListItem><Link className="anchor" to="/" data-value="Home">Home</Link></ListItem>
+                    <ListItem><Anchor className="link" href="#" data-value="Work">Work</Anchor></ListItem>
+                    <ListItem><Anchor className="link" href="#" data-value="Portfolio">Portfolio</Anchor></ListItem>
+                    <ListItem><Anchor  className="link" href="#" data-value="Resume">Resume</Anchor></ListItem>
+                    <ListItem><Anchor className="link" href="#" data-value="About">About</Anchor></ListItem>
                     <ListItem><Link className="anchor" to="/contact">Contact</Link></ListItem>
                 </UlList>
             </div>

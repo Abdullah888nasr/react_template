@@ -1,7 +1,6 @@
 import Styled from 'styled-components'
 export const WorkDiv = Styled.div `
     height: auto;
-    padding: 50px 0;
     overflow: hidden;
     background: #fff
 `;

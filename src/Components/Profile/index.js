@@ -19,33 +19,33 @@ const Profile = () => {
     });
     return(
         <ProfileSkills>
-            <div className="container">
+            <div className="container" id="Resume">
                 <ProfileDiv>
                     <Title><DivSpan>My</DivSpan> Profile</Title>
                     <ProfileList>
                         <ProfileItem>
                             <Span>Name</Span>
-                            Hamza Nabil
+                            Abdullah Nasr
                         </ProfileItem>
                         <ProfileItem>
                             <Span>Birthday</Span>
-                            21/1/1996
+                            31/3/1997
                         </ProfileItem>
                         <ProfileItem>
                             <Span>Address</Span>
-                            Ain shams
+                            Qena, Almanshia
                         </ProfileItem>
                         <ProfileItem>
                             <Span>Phone</Span>
-                            4444 5555 6666
+                            0100 495 3989
                         </ProfileItem>
                         <ProfileItem>
                             <Span>Email</Span>
-                            hamza@hamza.com
+                            abdullah888nasr@gmail.com
                         </ProfileItem>
                         <ProfileItem>
                             <Span>Website</Span>
-                            <Span web>www.google.com</Span>
+                            <a href="http://abdullahportfolio.epizy.com">My Portfolio</a>
                         </ProfileItem>
                     </ProfileList>
                 </ProfileDiv>

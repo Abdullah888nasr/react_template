@@ -5,7 +5,7 @@ const Contact = () => {
     return(
         <>
             <ContactDiv>
-                <div class="container">
+                <div className="container">
                     <ContactTitle><Span>Drop </Span>Me A line</ContactTitle>
                     <ContactForm>
                         <FormInput>

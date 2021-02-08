@@ -3,7 +3,7 @@ import {FooterDiv, FooterPre} from './style.js';
 const Footer = () => {
     return(
         <FooterDiv>
-            <FooterPre> Copyright &copy; 2021 by Ultra Profile </FooterPre>
+            <FooterPre> Copyright &copy; 2021 by Abdullah Nasr </FooterPre>
         </FooterDiv>
     )
 }
